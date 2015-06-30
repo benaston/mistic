@@ -1,0 +1,40 @@
+{
+  "name": "mistic",
+  "version": "0.1.3",
+  "description": "A state machine.",
+  "keywords": [],
+  "homepage": "https://github.com/benaston/mistic",
+  "bugs": {
+    "url": "https://github.com/benaston/mistic/issues",
+    "email": "ben@bj.ma"
+  },
+  "license": "MIT",
+  "files": [
+    "dist/**"
+  ],
+  "main": "dist/mistic.min.js",
+  "private": false,
+  "dependencies": {
+    "kwire": "0.4.0",
+    "mixx": "0.1.0",
+    "niid": "0.0.6",
+    "noopaam": "0.0.2",
+    "partial-application": "0.0.17",
+    "sprest": "0.0.4"
+  },
+  "author": {
+    "name": "Ben Aston",
+    "email": "ben@bj.ma",
+    "url": "http://www.bj.ma"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-replace": "^0.7.8",
+    "jasmine-node": "^1.14.5"
+  },
+  "repository": "git@github.com:benaston/mistic.git"
+}
