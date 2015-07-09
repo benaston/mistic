@@ -85,14 +85,14 @@ machine = new StateMachine({
 });
 
 var bug = new Bug('bug title');
-var stateful = new BugStateful(bug, machine);
+var statefulBug = new BugStateful(bug, machine);
 
 // Trigger a state transition.
-var result = stateful.assign(assigneeEmail);
+var result = statefulBug.assign(assigneeEmail);
 
 // Transition is successful and affects the object.
-expect(stateful.currentState.value === 'ASSIGNED').toBe(true);
-expect(stateful.bug.assigneeEmail).toBe(assigneeEmail);
+expect(statefulBug.currentState.value === 'ASSIGNED').toBe(true);
+expect(statefulBug.bug.assigneeEmail).toBe(assigneeEmail);
 ```
 
 ## License & Copyright
